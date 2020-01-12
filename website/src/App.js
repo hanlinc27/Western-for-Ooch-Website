@@ -6,6 +6,8 @@ function App(){
   const sayHello = () => {
     console.log("hello");
   }
+
+  
   return (
     <div className="App">
       <ul>
@@ -16,103 +18,16 @@ function App(){
       </ul>
 
       <header className = "Top-page">       
-        <HomepageImage />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <HomepageImage /> 
       </header>
+
+      <div className = "Title-text">
+        <h1>Cancer changes a child's life.</h1>
+        <h1>So does camp.</h1>
+      </div>
+     
       <body>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p><p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
-        <p>
-          Hello world
-        </p>
+       
       </body>
       <footer>
         <p>
