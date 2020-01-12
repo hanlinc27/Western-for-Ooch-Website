@@ -34,7 +34,7 @@ function App() {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#about">
                 About <span class="sr-only">(current)</span>
               </a>
             </li>
@@ -60,7 +60,7 @@ function App() {
       </nav>
       <body>
         <div class="grid">
-          <div class="row">
+          <div id="about">
             <div class="col-7">
               <h1>
                 Cancer changes a child's life.
@@ -98,17 +98,21 @@ function App() {
           <div class="row">
             <div class="col-md-3">
               <div class="card">
-                <p class="card-text">$600 provides a weekend of joy</p>
+                <p class="card-text">
+                  $600 provides board games for a Community Program
+                </p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="card">
-                <p class="card-text"> $50 provides games</p>
+                <p class="card-text"> $50 gives four kids in </p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="card">
-                <p class="card-text">$160 provides hospital care</p>
+                <p class="card-text">
+                  $160 gives a kid too sick to travel one day at camp
+                </p>
               </div>
             </div>
           </div>
@@ -124,6 +128,13 @@ function App() {
           <div class="row">
             <div class="col-md-11">
               <img src="ProudSupporterLogo.png"></img>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heart">
+                <p class="heart">Made with ❤ by the Hack for Heart team!</p>
+              </div>
             </div>
           </div>
         </div>

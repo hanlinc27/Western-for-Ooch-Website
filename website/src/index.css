@@ -13,5 +13,14 @@ code {
 }
 
 body {
-  padding: 30px;
+  padding: 40px;
+}
+
+#about,
+nav {
+  background: #e5e5e5;
+}
+
+.heart {
+  text-align: center;
 }
