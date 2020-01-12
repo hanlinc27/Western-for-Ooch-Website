@@ -1,0 +1,11 @@
+#outerbar{
+position: absolute;
+width: 943px;
+height: 64px;
+left: 236px;
+top: 814px;
+
+background: #FFFFFF;
+box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25);
+border-radius: 62px;
+}
