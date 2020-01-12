@@ -9,4 +9,4 @@ function HomepageImage() {
   );
 }
 
-export default HomepageImage;
+export default HomepageImage; 
