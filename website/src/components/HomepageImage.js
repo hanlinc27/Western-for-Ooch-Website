@@ -3,7 +3,10 @@ import Logo from "./WesternOochLogo.png"
 
 function HomepageImage() {
   return (
-    <img src={Logo} style={{width:"10%"}} alt='Logo' />
+    <img src={Logo} style={{position: "absolute", width: "400px",
+    height: "400px",
+    left: "940px",
+    top: "120px"}} alt='Logo' />
   );
 }
 
