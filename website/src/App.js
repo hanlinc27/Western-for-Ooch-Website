@@ -79,6 +79,8 @@ function App() {
           <div class="row" id = "fundraisingSection">
             <img src = {wave} id = "wave"/>
             <h1 id= "fundGoalTitle">Our Fundraising Goal</h1>
+             <img src = {HomepageImage} alt = "logo" id = "outerbar"/>
+ <img src = {HomepageImage} alt = "logo" id = "innerbar"/>
             <a href= "https://ca.gofundme.com/f/camp-ooch-season-of-giving" id="donateBtn">Donate</a>
           </div>
           <div class="row" id= "impactSection">
