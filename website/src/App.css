@@ -1,6 +1,4 @@
-/* .App {
-  text-align: center;
-} */
+
 /* 
 .App-logo {
   height: 40vmin;
@@ -13,28 +11,20 @@
   }
 } */
 
-.App {
+body {
   background-color: #FFFAED;
-}
-
-.hello {
-  text-align: center;
-}
-
-header {
-  background-color: #FFFAED;
-  padding-top: 18%;
-  text-align: center;
+  padding-top: 0;
 }
 
 ul {
   list-style-type: none;
-  padding-top: 10px;
+  padding-top: 0px;
   position: fixed;
   display: inline-block;
   text-align: right;
   overflow: hidden;
   width: 100%;
+  z-index: 5;
 }
 
 
@@ -43,25 +33,118 @@ li {
   text-align: right; 
 }
 
-li a {
-  padding: 20px;
+a {
+  padding-left: 20px;
   text-align: center;
   display: inline-block;
 }
 
-.title-left {
-  text-align: left;
+#clubLogo {
+  position: absolute;
+  width: 20%;
+  left: 70%;
+  top: 25%;
+
+  background: transparent;
+  z-index: 4;
 }
 
-.App-link {
-  color: #61dafb;
+#intro_para {
+  margin-top: 0;
+  margin-left: 0%;
+  margin-right: -30%;
+  position: absolute;
+  z-index: 4;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.col-7 {
+  margin-top: 8%;
+  margin-left: 7%;
+  position: absolute;
+}
+
+#fundraisingSection {
+  margin-top: 30%;
+  margin-right: 0;
+  position: absolute;
+  z-index: 3;
+}
+
+#backg {
+  position: absolute;
+  width: 100%;
+}
+
+#donateBtn {
+  position: absolute;
+  z-index:6;
+  margin-left: 50%;
+}
+
+#calendarSection {
+  margin-top: 110%;
+  position: absolute;
+  margin-bottom: 20%;
+  margin-left: 7%;
+}
+
+
+#calendar {
+  width: 70%;
+  height: 90%;
+  margin-top: 120%;
+  margin-left: 15%;
+  position: absolute;
+  margin-bottom: 20%;
+}
+
+
+#impactSection {
+  margin-left: 7%;
+  margin-top: 70%;
+  position: absolute;
+  
+}
+
+#one {
+  margin-left: 7.5%;
+  width: 25%;
+  margin-right: 2.5%;
+  margin-top: 2%; 
+  
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 3%;
+}
+
+#three {
+  width: 25%;
+  margin-right: 2.5%;
+  
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 3%;
+}
+
+#five {
+  width: 25%;
+  
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 3%;
+}
+
+#wave {
+  width: 100%;
+  height: 30%;
+  z-index: 2;
+  position: static;
+}
+
+#fundGoalTitle {
+  margin-left: 7%;
+  position: absolute;
+  margin-top: -20%;
+}
+
+#forest {
+  width:100%;
+  margin-top: 100%;
 }
