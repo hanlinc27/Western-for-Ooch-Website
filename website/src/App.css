@@ -27,8 +27,31 @@
 }
 
 .Top-page {
-  background-color: #282c34;
+  background-color: #FFFAED;
   padding-top: 5%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding-top: 10px;
+  position: fixed;
+  display: inline-block;
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+  text-align: right;
+}
+
+a {
+  padding: 30px;
+  text-align: right;
+}
+
+.navigation-labels {
+  float: right;
 }
 
 .App-link {
