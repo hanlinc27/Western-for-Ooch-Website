@@ -1,22 +1,21 @@
 import React from 'react';
 import './App.css';
 import HomepageImage from './components/HomepageImage';
+import upperwave from './components/wave.png';
 
 function App(){
-  const sayHello = () => {
-    console.log("hello");
-  }
   return (
     <div className="App">
       <ul>
+        <li className = "title-left">western for OOCH</li>
         <li><a href="default.asp">Home</a></li>
         <li><a href="news.asp">News</a></li>
         <li><a href="contact.asp">Contact</a></li>
         <li><a href="about.asp">About</a></li>
       </ul>
-
-      <header className = "Top-page">       
+      <header>    
         <HomepageImage />
+        <img src = {upperwave} width = "100%" alt = 'wave' id = 'upwave'/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -29,7 +28,7 @@ function App(){
           Learn React
         </a>
       </header>
-      <body>
+      <body className = "hello">
         <p>
           Hello world
         </p>
