@@ -22,7 +22,13 @@ raised_amount = int(first_scrape.text[1:4])
 total_amount = int(first_scrape.text[16:19])
 print(raised_amount)
 print(total_amount)
-
+# append to a text file
+f = open("funding_values.txt","w+")
+#f=open("guru99.txt","a+")
+for i in range(1):
+    f.write(str(raised_amount)+"\n")
+    f.write(str(total_amount))
+f.close()
 
 
 
