@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import HomepageImage from './components/HomepageImage';
-import Navbar from 'react-bootstrap/Navbar';
+import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 
-function App() {
+function App(){
+  const sayHello = () => {
+    console.log("hello");
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <Navbar bg="light" variant="light">
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-          <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-primary">Search</Button>
-          </Form>
-        </Navbar>
-          <HomepageImage />
+
+    <Drawer fixed = "top" className="App-header">
+              <Navigation>
+                  <a href="#">About</a>
+                  <a href="#">Fundraising</a>
+                  <a href="#">Events</a>
+                  <a class = "Get-involved-button" href="#">Get Involved</a>
+              </Navigation>
+            </Drawer>
+      <header className = "Top-page">
+            
+        <HomepageImage />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -34,6 +34,86 @@ function App() {
         </a>
       </header>
       <body>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p><p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
+        <p>
+          Hello world
+        </p>
         <p>
           Hello world
         </p>
