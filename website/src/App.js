@@ -8,49 +8,24 @@ import sixhundred from './components/5.png';
 import wave from './components/wave.png';
 import footer from './components/footer.png';
 import forest from './components/forest.png';
+import clouds from './components/clouds.png';
 
 function App() {
 
   return (
     <div className="App">
-
-      {/* <img src = {background} id = "backg"/> */}
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">
-          Western for OOCH
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                About <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#fundraisingSection">Fundraising</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#calendarSection">Events</a>
-            </li>
-            <li class="nav-item">
-              <button>
-                <a class="nav-link" href="#">Get Involved</a>
-              </button>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href=".navbar-brand">western for OOCH</a>
+    
+  <header id = "nav"> 
+    <ul>
+      <li>Fundraising</li>
+      <li>Impact</li>
+      <li>Events</li>
+      <li>Join</li>
+    </ul>
+  </header>
+</nav>
       <body>
         {/* <img src = {background} id = "background"/>  */}
         <div class="grid">
@@ -79,6 +54,9 @@ function App() {
           <div class="row" id = "fundraisingSection">
             <img src = {wave} id = "wave"/>
             <h1 id= "fundGoalTitle">Our Fundraising Goal</h1>
+            <div class="donateBtn">
+            <button><a href= "https://ca.gofundme.com/f/camp-ooch-season-of-giving">Donate</a></button>
+            </div>
              <img src = {HomepageImage} alt = "logo" id = "outerbar"/>
  <img src = {HomepageImage} alt = "logo" id = "innerbar"/>
             <a href= "https://ca.gofundme.com/f/camp-ooch-season-of-giving" id="donateBtn">Donate</a>
@@ -95,6 +73,7 @@ function App() {
           <div class="row" id = "calendarSection">
             <div class="col-md-12">
               <h1>Our Upcoming Events</h1>
+              <img src={clouds} id = "clouds" />
             </div>
           </div>
           <img src = {forest} id = "forest"/>
@@ -102,6 +81,7 @@ function App() {
             <div class="col-md-11">
             </div>
           </div>
+          <img src = {footer} id = "footer"/>
         </div>
 
       </body>
