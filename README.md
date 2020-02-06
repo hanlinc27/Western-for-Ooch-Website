@@ -12,8 +12,7 @@ It began with analyzing the user groups of the potential website and identifying
 ### Design 
 The website was designed in Figma. Attempts were made to embody the “camp” theme of Camp Ooch and taking inspiration from the 
 Western chapter’s Instagram as well as the original Camp Ooch website.
-
-* The Figma design can be found at: [Figma](https://www.figma.com/file/D3CbC73ZIn8bHv2rnuGgwo/Western-Ooch?node-id=1%3A2)
+![Figma Design](https://github.com/hanlinc27/Western-for-Ooch-Website/blob/master/MacBook%20Pro%20-%201.png?raw=true)
 
 ### Tech Stack
 The website was built with **React.js** alongside **HTML, CSS, and Javascript** **Bootstrap** was also utilized to create a reponsive application.
